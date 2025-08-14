@@ -2,7 +2,7 @@
 .libPaths("~/R/libs")
 
 # cria um array com nomes dos pacotes para instalacao
-packages <- c("readxl", "dplyr", "writexl", "tidyr", "stringr")
+packages <- c("readxl", "dplyr", "writexl", "tidyr", "stringr", "magrittr")
 
 # verifica se pacotes declarados anteriormente NÃO estão instalados
 remaining_packages <- packages[!(packages %in% installed.packages()[,"Package"])]
